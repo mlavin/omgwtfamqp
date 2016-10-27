@@ -1,0 +1,7 @@
+aioamqp==0.8.2
+aiohttp==1.0.5
+async-timeout==1.0.0
+chardet==2.3.0
+multidict==2.1.2
+pamqp==1.6.1
+rabbitpy==0.27.1

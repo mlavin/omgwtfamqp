@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+    padding: 1em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+}
+
+#main #content-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#main #content-wrapper #messages {
+    border: 2px solid #eee;
+    flex: 1;
+}
+
+#main #content-wrapper #messages .line {
+    padding: 0.25em 0.5em;
+    color: #31708f;
+}
+
+#main #content-wrapper #messages .line.succeeded {
+    color: #3c763d;
+}
+
+#main #content-wrapper #messages .line.failed {
+    color: #a94442;
+}
